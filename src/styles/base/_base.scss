@@ -1,3 +1,35 @@
-body {
-  background-color: dimgrey;
+.page-backround {
+  background-color: $aqua-squeeze;
+}
+
+.image {
+  height: 250px;
+  width: 250px;
+  background-size: cover;
+  color: $white;
+  @include flex-center();
+}
+
+.bijou {
+  background-image: url("../images/bijou.jpg");
+}
+
+.eggnogg {
+  background-image: url("../images/eggnogg.jpg");
+}
+
+.mojito {
+  background-image: url("../images/mojito.jpg");
+}
+
+.negroni {
+  background-image: url("../images/negroni.jpg");
+}
+
+.rattlesnake {
+  background-image: url("../images/rattlesnake.jpg");
+}
+
+.zinger {
+  background-image: url("../images/zinger.jpg");
 }
