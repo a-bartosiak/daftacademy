@@ -1,0 +1,22 @@
+.footer {
+  color: $ghost;
+  margin: 20px;
+
+  &__link {
+    color: $fiord;
+  }
+
+  &__contact {
+    @include media-breakpoint-down(md) {
+      @include flex-center();
+    }
+  }
+
+  &__social {
+    @include media-breakpoint-down(md) {
+      @include flex-center();
+    }
+    @include flex-row-end();
+
+  }
+}

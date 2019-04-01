@@ -1,0 +1,22 @@
+.navigation {
+  @include flex-row-space-between();
+  margin: 30px 0;
+  @include media-breakpoint-down(md) {
+    flex-wrap: wrap;
+    @include flex-row();
+    justify-content: flex-start;
+  }
+
+  &__link {
+    color: $opal;
+    @include media-breakpoint-down(md) {
+      margin-right: 15px;
+    }
+
+    &:hover {
+      color: $fiord;
+      border-bottom: 1px solid $fiord;
+      text-decoration: none;
+    }
+  }
+}

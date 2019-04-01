@@ -1,0 +1,54 @@
+
+  .image {
+    @include media-breakpoint-down(sm) {
+      height: 230px;
+      width: 230px;
+      margin: 15px auto;
+    }
+    @include media-breakpoint-down(md) {
+      height: 260px;
+      width: 260px;
+      margin-bottom: 30px;
+    }
+    height: 245px;
+    width: 245px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: $white;
+    text-align: center;
+    @include flex-center();
+    margin-bottom: 15px;
+    transition: all .5s;
+    overflow: hidden;
+
+
+    &:hover {
+      border: 5px solid $peach-yellow;
+      background-size: auto;
+    }
+  }
+
+  .bijou {
+    background-image: url("../images/bijou.jpg");
+  }
+
+  .eggnogg {
+    background-image: url("../images/eggnogg.jpg");
+  }
+
+  .mojito {
+    background-image: url("../images/mojito.jpg");
+  }
+
+  .negroni {
+    background-image: url("../images/negroni.jpg");
+  }
+
+  .rattlesnake {
+    background-image: url("../images/rattlesnake.jpg");
+  }
+
+  .zinger {
+    background-image: url("../images/zinger.jpg");
+  }
+

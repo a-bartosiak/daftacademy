@@ -1,0 +1,10 @@
+.header {
+  margin-top: -24px;
+  padding-bottom: 20px;
+  &__logo {
+    width: fit-content;
+    padding: 10px 25px;
+    color: $fiord;
+    border: 2px solid $fiord;
+  }
+}
